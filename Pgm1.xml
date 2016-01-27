@@ -3,18 +3,8 @@
     <next>
       <block type="robot_delay" id="279" inline="true">
         <value name="DELAY">
-          <block type="math_arithmetic" id="595" inline="true">
-            <field name="OP">ADD</field>
-            <value name="A">
-              <block type="math_number" id="598">
-                <field name="NUM">5000</field>
-              </block>
-            </value>
-            <value name="B">
-              <block type="math_number" id="599">
-                <field name="NUM">5000</field>
-              </block>
-            </value>
+          <block type="math_number" id="598">
+            <field name="NUM">5000</field>
           </block>
         </value>
         <next>
